@@ -1,0 +1,58 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name="login" class="Class.Validate.LoginValidateAction">
+            
+            <result name="inactive">login2.jsp</result>
+            <result name="invalid">login2.jsp</result>
+            <result name="student">sessionput.jsp</result>
+            <result name="admin">sessionput.jsp</result>
+            <result name="super-admin">sessionput.jsp</result>
+            <result name="hod">sessionput.jsp</result>
+            <result name="faculty">sessionput.jsp</result>
+            
+        </action>
+        
+        <action name="register">
+            <result>register_validate.jsp</result>
+        </action>
+        
+        <action name="Validate">
+            <result>auth.jsp</result>
+        </action>
+        
+        <action name="auth_final">
+            <result>auth_final.jsp</result>
+        </action>
+        
+        <action name="Home">
+            <result>template_s_admin.jsp</result>
+        </action>
+        
+        <action name="AllocateResource">
+            <result>allocate_resource.jsp</result>
+        </action>
+        
+        <action name="AddNews">
+            <result>add_news.jsp</result>
+        </action>
+        
+        <action name="ChangeRole">
+            <result>change_role.jsp</result>
+        </action>
+        
+        <action name="Requests">
+            <result>requests.jsp</result>
+        </action>
+        
+        <action name="Logout">
+            <result>logout.jsp</result>
+        </action>
+        
+        
+    </package>
+</struts>

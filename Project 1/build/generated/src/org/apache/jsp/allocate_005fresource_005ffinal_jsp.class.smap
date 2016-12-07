@@ -1,0 +1,20 @@
+SMAP
+allocate_005fresource_005ffinal_jsp.java
+JSP
+*S JSP
+*F
++ 0 allocate_resource_final.jsp
+allocate_resource_final.jsp
+*L
+5,7:58
+11:157,9
+11,4:67
+14,6:70
+19,2:76
+21:79,17
+22:96,5
+23:101
+23,2:120
+24,12:122
+35,5:134
+*E
